@@ -1,14 +1,14 @@
-%define		vendor_version	0.25.18
+%define		vendor_version	0.26.0
 Summary:	Kubernetes CLI To Manage Your Clusters In Style
 Name:		k9s
-Version:	0.25.18
+Version:	0.26.0
 Release:	1
 License:	Apache v2.0
 Group:		Applications
 Source0:	https://github.com/derailed/k9s/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	443fd6f0320955b8cc29e4e3a1b8a9b1
+# Source0-md5:	f80f0d730ab0b515d3e7cd9020a6a8d6
 Source1:	%{name}-vendor-%{vendor_version}.tar.xz
-# Source1-md5:	f166377327b5d263d3847144cdd50c74
+# Source1-md5:	9dad04d72c0d74d44c904675c1b544ee
 URL:		https://k9scli.io/
 BuildRequires:	golang >= 1.14
 BuildRequires:	rpm-build >= 4.6
